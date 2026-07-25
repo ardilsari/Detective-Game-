@@ -1,0 +1,112 @@
+{
+  "cases": [
+    {
+      "caseId": 1,
+      "caseName": "Gizli Cinayet - Londra 1888",
+      "caseDescription": "Londra'da gizemli bir cinayet meydana geldi. Tanıkları sorgula, kanıtları topla ve suçluyu bul.",
+      "date": "1888",
+      "location": "Londra, İngiltere",
+      "daysToSolve": 10,
+      "correctSuspectId": 1,
+      "witnesses": [
+        {
+          "id": 1,
+          "name": "John Smith",
+          "profession": "Esnaf",
+          "location": "Sokak",
+          "isSuspect": false,
+          "statements": [
+            "Ben o gece sokakta idi. Saat 11 sıralarında.",
+            "Şüpheli birini gördüm. Hızlı bir şekilde kaçıyordu.",
+            "Kırmızı renkte bir ceket giyiyordu."
+          ],
+          "clues": [
+            "Kırmızı ceket giyiyordu",
+            "Koyu renk saçlı ve uzun boylu",
+            "Sağ elinde kan damlacıkları vardı"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Mary Johnson",
+          "profession": "Hemşire",
+          "location": "Hastane",
+          "isSuspect": true,
+          "statements": [
+            "Ben o saatte uykudaydım. Hiçbir şey görmedim.",
+            "Hastanede çalışıyorum. Rutin bir gündü.",
+            "Ne bileyim, başka ne söyleyeceğim?"
+          ],
+          "clues": [
+            "Tıbbi bilgiye sahip",
+            "Garip davranışlar sergiledi",
+            "İşinden ayrıldıktan sonra hemen terk etti"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Inspector Wilson",
+          "profession": "Polis",
+          "location": "Karakol",
+          "isSuspect": false,
+          "statements": [
+            "Olay yerine ilk ben gittim.",
+            "İzler vardı. Çok ilginç izler.",
+            "Adli tıp incelemesi yapılmalı."
+          ],
+          "clues": [
+            "Ayakkabı izleri buldum",
+            "Kan damlacıkları tespit ettim",
+            "Hemşirenin ayakkabısıyla eşleşti izler"
+          ]
+        }
+      ],
+      "evidences": [
+        {
+          "id": 1,
+          "name": "Kırmızı Ceket",
+          "description": "Olay yerinde bulunan kırmızı bir ceket. İçinde başlatma bilgisi yok.",
+          "location": "Olay Yeri - Sokak Köşesi",
+          "forensicDetails": "Kurbanın kanı tespit edildi. DNA analizi Hemşire Mary'ye ait."
+        },
+        {
+          "id": 2,
+          "name": "Ayakkabı İzleri",
+          "description": "Olay yerindeki ayakkabı izleri fotoğraflı belgelendi.",
+          "location": "Olay Yeri - Yer",
+          "forensicDetails": "Hemşire Mary'nin ayakkabısıyla tam eşleşti."
+        },
+        {
+          "id": 3,
+          "name": "Tıbbi Enstrüman",
+          "description": "Hastaneden çalınan tıbbi bir enstrüman.",
+          "location": "Hastane - Ameliyathane",
+          "forensicDetails": "Kurbanın yarasıyla eşleşen keskin nesne. Hemşire'nin malı olduğu tespit edildi."
+        },
+        {
+          "id": 4,
+          "name": "Mektup",
+          "description": "Olay yerinde bulunan bir mektup. Tehdit içeriyor.",
+          "location": "Olay Yeri - Kurban'ın Cebinde",
+          "forensicDetails": "Hemşire'nin imzası ile yazılmış. Handwriting analizi onayladı."
+        }
+      ],
+      "suspectProfiles": [
+        {
+          "id": 1,
+          "name": "Mary Johnson (Hemşire)",
+          "description": "Tıbbi bilgiye sahip hemşire. Garip davranışlar ve çelişkili ifadeler. Adli tıp delilleri onu işaret ediyor.",
+          "evidenceIds": [1, 2, 3, 4],
+          "witnessIds": [1, 3]
+        },
+        {
+          "id": 2,
+          "name": "John Smith (Esnaf)",
+          "description": "Olay yerinde görüldü ancak açıklaması tutarlı. Sadece yanlışlıkla şüphelenilmiş olabilir.",
+          "evidenceIds": [1],
+          "witnessIds": [1]
+        }
+      ]
+    }
+  ]
+}
