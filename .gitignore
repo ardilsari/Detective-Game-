@@ -1,0 +1,31 @@
+# Unity
+Library/
+Temp/
+Logs/
+Builds/
+*.csproj
+*.sln
+.vs/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Visual Studio
+.vs/
+*.userprefs
+
+# Mac
+.DS_Store
+
+# IDE
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS
+Thumbs.db
+
+# Build artifacts
+bin/
+obj/
