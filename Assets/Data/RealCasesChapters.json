@@ -1,0 +1,728 @@
+{
+  "chapters": [
+    {
+      "chapterId": 1,
+      "chapterName": "Bölüm 1: Jack the Ripper - Londra 1888",
+      "historicalCase": "Gerçek Çözülmemiş Cinayet",
+      "realCaseLink": "https://en.wikipedia.org/wiki/Jack_the_Ripper",
+      "description": "Londra'nın Whitechapel bölgesinde 1888 yılında 5 kadının öldürülmesi. Suçlu hiçbir zaman bulunamamıştır.",
+      "period": "1888 - Victorian England",
+      "difficulty": 1,
+      "estimatedPlaytime": 120,
+      "location": "Whitechapel, Londra",
+      "victims": [
+        "Mary Ann Nichols",
+        "Annie Chapman",
+        "Elizabeth Stride",
+        "Catherine Eddowes",
+        "Mary Jane Kelly"
+      ],
+      "suspects": [
+        {
+          "id": 1,
+          "name": "Dr. Montague Druitt",
+          "profession": "Doktor/Öğretmen",
+          "description": "Tıbbi bilgisi var, cinsel sapıklık belirtileri, 1888-1889'da turist olarak ortadan kayboldu",
+          "evidence": [
+            "Anatomik bilgisi var",
+            "Whitechapel yakınında yaşıyor",
+            "Davranış bozuklukları kaydedilmiş",
+            "Tarih birbirine uyuyor"
+          ],
+          "likelihood": 35
+        },
+        {
+          "id": 2,
+          "name": "Aaron Kosminski",
+          "profession": "Berber",
+          "description": "Polonyalı göçmen, akıl hastalığı, tehdit eden davranışlar, dönem gazete tutuklamaları",
+          "evidence": [
+            "Yanlış yer tanımıyla tutuklandı",
+            "Akıl hastalığı tanısı",
+            "Whitechapel'da yaşıyor",
+            "Dönem yazıları işaret ediyor"
+          ],
+          "likelihood": 42
+        },
+        {
+          "id": 3,
+          "name": "John Druitt",
+          "profession": "Avukat",
+          "description": "Despotik kişilik, cinsel sorunlar, yer zaman tutarlılığı sorgulanır",
+          "evidence": [
+            "Adli geçmiş yok",
+            "Tanık ifadeleri zayıf",
+            "Motive açık değil"
+          ],
+          "likelihood": 28
+        }
+      ],
+      "evidenceList": [
+        {
+          "id": 1,
+          "name": "Kırmızı Çanta Mektubu",
+          "description": "Polise gelen mektup: 'Beni Saucy Jack diye çağırıyorlar'",
+          "location": "Polis Merkezi Arşivi",
+          "forensicImportance": "Yazı analizi - sahte mi gerçek mi?",
+          "foundYear": 1888
+        },
+        {
+          "id": 2,
+          "name": "Operasyon Tıbbi Kesileri",
+          "description": "Kurbanların cesetlerindeki cerrahi kesilerin türü ve yeri",
+          "location": "Adli Tıp Raporları",
+          "forensicImportance": "Suçlunun tıbbi bilgisini gösterir",
+          "foundYear": 1888
+        },
+        {
+          "id": 3,
+          "name": "Gözlemci Tanık İfadeleri",
+          "description": "Suç saatinde şüpheli erkekler gören tanıklar",
+          "location": "Polis Dosyası",
+          "forensicImportance": "Çelişkili ve tutarsız tanık ifadeleri",
+          "foundYear": 1888
+        },
+        {
+          "id": 4,
+          "name": "Kurban Kişisel Eşyaları",
+          "description": "Mağdurların cüzdanları, ayniyat defteri, giysileri",
+          "location": "Dönem Müzesi",
+          "forensicImportance": "Suçlunun motivini gösterebilir",
+          "foundYear": 1888
+        }
+      ],
+      "subMissions": [
+        "Whitechapel bölgesini incele ve şüpheli yerleri tanımla",
+        "Tüm 5 kurbanı sorgula (dönem tanıkları)",
+        "Kurban otopsi raporlarını analiz et",
+        "Suç saatleri ve konumları eşleştir",
+        "Polis raporlarını incele",
+        "Gazete arşivini oku",
+        "Şüphelilerin alibiyi kontrol et",
+        "Tıbbi bilgi sahibi suç analizi yap"
+      ],
+      "cliffhanger": "Gerçek Jack the Ripper hiç yakalanmadı. Oyuncu senin çözdüğün kişi gerçekten suçlu mu?"
+    },
+    {
+      "chapterId": 2,
+      "chapterName": "Bölüm 2: Lizzie Borden - Amerika 1892",
+      "historicalCase": "Gerçek Çözülmemiş Cinayet",
+      "realCaseLink": "https://en.wikipedia.org/wiki/Lizzie_Borden",
+      "description": "Lizzie Borden'in ebeveynlerinin balta ile öldürülmesi. Lizzie yargılanıp beraat etti ama halk onu suçlu bilir.",
+      "period": "1892 - Victorian America",
+      "difficulty": 2,
+      "estimatedPlaytime": 120,
+      "location": "Fall River, Massachusetts, USA",
+      "victims": [
+        "Andrew Borden (Baba)",
+        "Abby Gray Borden (Üvey Anne)"
+      ],
+      "suspects": [
+        {
+          "id": 1,
+          "name": "Lizzie Andrew Borden",
+          "profession": "Hanım",
+          "description": "Miras nedeniyle motive, suç saatinde evde, çelişkili ifade, duygusal bozukluk",
+          "evidence": [
+            "Mirastan pay almak için motive",
+            "Suç saatinde evde",
+            "Davranışsal sorunlar",
+            "Ateş kesin",
+            "Cinsiyetçi yargılamaya uğradı"
+          ],
+          "likelihood": 78
+        },
+        {
+          "id": 2,
+          "name": "Bridget Sullivan",
+          "profession": "Hizmetçi",
+          "description": "Ailede çalışıyor, tutarsız ifade, finansal zorluk",
+          "evidence": [
+            "Tutarsız ifade",
+            "Ev hakkında bilgi",
+            "Mali motivasyon?",
+            "Diğer tanıklar ona şüphe ediyor"
+          ],
+          "likelihood": 32
+        },
+        {
+          "id": 3,
+          "name": "John Vinnicum Morse",
+          "profession": "Kuzen",
+          "description": "Yazı hatalı alibi, mirastan fayda, yer bilgisi",
+          "evidence": [
+            "Saçının rengi tutmuyor",
+            "Alibi şüpheli",
+            "Ev bilgisi var",
+            "Suç öncesi konuşma kayıtları"
+          ],
+          "likelihood": 41
+        }
+      ],
+      "evidenceList": [
+        {
+          "id": 1,
+          "name": "Balta ve İçine Tarağı",
+          "description": "Evde bulunan balta. Kan taraması yapılmadı.",
+          "location": "Suç Sahnesi",
+          "forensicImportance": "Dönem teknolojisi kan testini yapamadı",
+          "foundYear": 1892
+        },
+        {
+          "id": 2,
+          "name": "Lizzie'nin Elbisesi",
+          "description": "Suç günü giydiği elbise. Tanıklar kanı gördü dedi.",
+          "location": "Polis Başsavcılığı",
+          "forensicImportance": "Yıkandı mı? Kanı varmı?",
+          "foundYear": 1892
+        },
+        {
+          "id": 3,
+          "name": "Saç Teli Kanıt",
+          "description": "Balta üzerinde bulunması söylenen saç teliydi.",
+          "location": "Savcılık",
+          "forensicImportance": "Kim'in saçı? Bilim kanıtlayamadı.",
+          "foundYear": 1892
+        },
+        {
+          "id": 4,
+          "name": "Miras Belgesi",
+          "description": "Andrew Borden'in malvarlığı yazısı. Lizzie imzalı mı?",
+          "location": "Noter Arşivi",
+          "forensicImportance": "Finans motivasyon gösterir",
+          "foundYear": 1892
+        }
+      ],
+      "subMissions": [
+        "Borden ailesini tanı ve aile dinamiğini anla",
+        "Suç sahnesini incele",
+        "Kurban otopsi sonuçlarını oku",
+        "Tanıkları sorgula (komşular, hizmetçi)",
+        "Alibi zaman çizelgesini doğrula",
+        "Mali kayıtları incele",
+        "Davranış psikiyatrisi analizi",
+        "Müzayedede satılan eşyaları takip et"
+      ],
+      "cliffhanger": "Lizzie beraat etti ama halk onu suçlu biliyor. Gerçek nedir?"
+    },
+    {
+      "chapterId": 3,
+      "chapterName": "Bölüm 3: Black Dahlia - Los Angeles 1947",
+      "historicalCase": "Gerçek Çözülmemiş Cinayet",
+      "realCaseLink": "https://en.wikipedia.org/wiki/Black_Dahlia",
+      "description": "Elizabeth Short'un (22) cesetinin Split-Body halinde bulunması. 60+ suçlu şüphesi, hiçbiri kanıtlanmamıştır.",
+      "period": "1947 - Post-War Hollywood",
+      "difficulty": 3,
+      "estimatedPlaytime": 120,
+      "location": "Los Angeles, California, USA",
+      "victims": [
+        "Elizabeth Short (Black Dahlia)"
+      ],
+      "suspects": [
+        {
+          "id": 1,
+          "name": "Dr. George Hodel",
+          "profession": "Doktor",
+          "description": "Zengin doktor, cinsel sapkınlık, kız kaçakçılığı bağlantıları, uluslararası kaçış",
+          "evidence": [
+            "Kız kaçakçılığı suçlaması",
+            "Tıbbi bilgisi mükemmel",
+            "Zengin ve güçlü",
+            "Gözlemci tanık ifadeleri",
+            "Oğlu tarafından açıklama yazısı"
+          ],
+          "likelihood": 85
+        },
+        {
+          "id": 2,
+          "name": "Leslie Dillon",
+          "profession": "Bekçi",
+          "description": "Şüpheli kişi, suç hakkında detay biliyor, yakın zamanda hapiste",
+          "evidence": [
+            "Suçu hakkında detay anlatıyor",
+            "Polis sorgulaması kaydı",
+            "Davranışsal sorunlar",
+            "Cinsel sapıklık geçmişi"
+          ],
+          "likelihood": 62
+        },
+        {
+          "id": 3,
+          "name": "Jack Anderson Wilson",
+          "profession": "Gezegin/İşçi",
+          "description": "Dönem hapishanesinde tanık, Elizabeth'i tanıyor, tutarsız ifade",
+          "evidence": [
+            "Mağduru tanıyor",
+            "Sosyal sınır tutarlılığı",
+            "Suç saatinde konumunun bilgisi yok"
+          ],
+          "likelihood": 48
+        }
+      ],
+      "evidenceList": [
+        {
+          "id": 1,
+          "name": "Cesedin Parçalanışı Analizi",
+          "description": "Cisim iki yere tam ortadan kesilmiş. Cerrahı bilgi gösterir.",
+          "location": "Adli Tıp",
+          "forensicImportance": "Tıbbi bilgi sahibi suçlu işareti",
+          "foundYear": 1947
+        },
+        {
+          "id": 2,
+          "name": "Kıyafet ve Takısı",
+          "description": "Elizabeth'in giysileri ve aksesuarları eksik bulunmuş.",
+          "location": "Polis Müzesi",
+          "forensicImportance": "Suçlu tarafından hediyelendirme?",
+          "foundYear": 1947
+        },
+        {
+          "id": 3,
+          "name": "Harita Kaleminin Izi",
+          "description": "Cesedin yanında bulunmuş markalı kalem izi.",
+          "location": "Adli Tıp Laboratuvarı",
+          "forensicImportance": "Suçlunun sosyal sınıfını gösterir",
+          "foundYear": 1947
+        },
+        {
+          "id": 4,
+          "name": "Anonim Mektuplar",
+          "description": "Suçlu tarafından gönderilen mektuplar ve kartpostallar.",
+          "location": "FBI Arşivi",
+          "forensicImportance": "Yazı analizi ve taunting davranışı",
+          "foundYear": 1947
+        }
+      ],
+      "subMissions": [
+        "Elizabeth Short'un hayatını ve bağlantılarını araştır",
+        "Cinayetten önceki gün-gün takibi yap",
+        "Suç sahnesi fotoğraflarını analiz et",
+        " 60+ şüpheliyi araştır ve kısalt",
+        "Dr. Hodel'in geçmişini araştır",
+        "Hollywood bağlantılarını takip et",
+        "Anonim mektupları çözümle",
+        "FBI dosyalarını incele"
+      ],
+      "cliffhanger": "Polisler Dr. Hodel'den şüphelendi ama kanıt yetersizdi. Sonraki bölümde gizli belgeler ortaya çıkacak."
+    },
+    {
+      "chapterId": 4,
+      "chapterName": "Bölüm 4: Axeman - New Orleans 1918",
+      "historicalCase": "Gerçek Çözülmemiş Cinayet",
+      "realCaseLink": "https://en.wikipedia.org/wiki/Axeman_of_New_Orleans",
+      "description": "New Orleans'da 6 ay içinde 6 cinayeti işleyen bilinmeyen seri katil. Hiçbir zaman yakalanmadı.",
+      "period": "1918 - World War I Era",
+      "difficulty": 4,
+      "estimatedPlaytime": 120,
+      "location": "New Orleans, Louisiana, USA",
+      "victims": [
+        "Joseph Maggio",
+        "Catherine Maggio",
+        "Louis Besumer",
+        "Anna Lowe",
+        "Joseph Romano",
+        "Josephine Romano"
+      ],
+      "suspects": [
+        {
+          "id": 1,
+          "name": "Mafia Bağlantılı Suçlu",
+          "profession": "Mafya Üyesi",
+          "description": "Suç sahnesi tipi Mafia öldürü, jital payı proteksiyonu, tanıklar sessiz",
+          "evidence": [
+            "Mafya suç planı tipi",
+            "İtalyan göçmen bağlantıları",
+            "Koruma hançer bağlantısı",
+            "Polis işbirliği şüphesi"
+          ],
+          "likelihood": 72
+        },
+        {
+          "id": 2,
+          "name": "Joseph Mumfre",
+          "profession": "Cerrah/Barbershop",
+          "description": "Suç sahnesi alet bilgisi, mahallede yaşıyor, davranış problemleri",
+          "evidence": [
+            "Alet bilgisi müdür",
+            "Yer bilgisi",
+            "Cinsel sapıklık tanımı",
+            "Suç zamanı hareket özgür"
+          ],
+          "likelihood": 58
+        },
+        {
+          "id": 3,
+          "name": "İtalyan Cezalandırma Grubu",
+          "profession": "Anonim Grup",
+          "description": "Koruma ödemesi reddetenlerin cezalandırılması ritüeli",
+          "evidence": [
+            "Kurbanların çoğu İtalyan",
+            "Koruma para talebi",
+            "Polis korumasız suçlar",
+            "Mafia bağlantı iplikleri"
+          ],
+          "likelihood": 65
+        }
+      ],
+      "evidenceList": [
+        {
+          "id": 1,
+          "name": "Balta ve Kalaslar",
+          "description": "Suç sahnesinde kullanılan balta ve kalaslar bulunmuş.",
+          "location": "Polis Depo",
+          "forensicImportance": "Alet markaları suçluyu gösterebilir",
+          "foundYear": 1918
+        },
+        {
+          "id": 2,
+          "name": "Koruma Para Talepleri",
+          "description": "İtalyan dükkânlarına gönderilen koruma para mektupları.",
+          "location": "Gazeteler ve Polis",
+          "forensicImportance": "Motiv ve İtalyan bağlantı gösterir",
+          "foundYear": 1918
+        },
+        {
+          "id": 3,
+          "name": "Suç Sahnesi Alet İzleri",
+          "description": "Kapı ve cism üzerindeki alet ayakları.",
+          "location": "Adli Tıp",
+          "forensicImportance": "Alet tipi ve suçlu meslek gösterir",
+          "foundYear": 1918
+        },
+        {
+          "id": 4,
+          "name": "Tanık İfadeleri ve Açıklamalar",
+          "description": "Tanıkların polis ifadeleri, korku ve baskı belirtileri.",
+          "location": "Polis Arşivi",
+          "forensicImportance": "Organize suç yapısını gösterir",
+          "foundYear": 1918
+        }
+      ],
+      "subMissions": [
+        "6 cinayet sahnelerini belge ve haritalandır",
+        "Her kurbanın bağlantılarını araştır",
+        "New Orleans Mafia yapısını analiz et",
+        "Koruma para sistemi ile suçları bağla",
+        "Joseph Mumfre'nin geçmişini araştır",
+        "İtalyan göçmen topluluğunu incele",
+        "Polis raporlarındaki çelişkileri bul",
+        "WWI askeri aktivite zaman çizelgesi"
+      ],
+      "cliffhanger": "Axeman orta cinayetleri durdurdu ama kimdi? Sonraki bölümde gözlemci tanık ortaya çıkacak."
+    },
+    {
+      "chapterId": 5,
+      "chapterName": "Bölüm 5: Hinterkaifeck - Bavyera 1921",
+      "historicalCase": "Gerçek Çözülmemiş Cinayet",
+      "realCaseLink": "https://en.wikipedia.org/wiki/Hinterkaifeck",
+      "description": "Uzak çiftlikte 6 kişi öldürüldü, bir kişi kaçtı, 4 gün sonra bulundu. Çiftlik, sosyal dış yapısı, bağlantılar gizli.",
+      "period": "1921 - Weimar Germany",
+      "difficulty": 5,
+      "estimatedPlaytime": 120,
+      "location": "Hinterkaifeck, Bavyera, Almanya",
+      "victims": [
+        "Andreas Gruber",
+        "Cäzilia Gruber",
+        "Viktoria Gabriel",
+        "Josef Gabriel",
+        "Cäzilia Gabriel"
+      ],
+      "suspects": [
+        {
+          "id": 1,
+          "name": "Giesel Gruber",
+          "profession": "Torun (Kaçan Kişi)",
+          "description": "Kaçan ve gizlenen kişi, aile ilişkileri gerilimli, Nazilerin saklama ihtimali",
+          "evidence": [
+            "Sahneden kaçan tek kişi",
+            "4 gün sonra bulundu",
+            "Ailede cinsel suç iddiaları",
+            "Nerede kaldığı belirsiz",
+            "Hiçbir zaman tam açıklamalar yapmadı"
+          ],
+          "likelihood": 71
+        },
+        {
+          "id": 2,
+          "name": "Karl Gabriel",
+          "profession": "Çiftçi",
+          "description": "Gözlemci tanık, aile çekişmesi, mali zorluk, davranış sabitesi",
+          "evidence": [
+            "Suç sahnesi yakınında",
+            "Mali motivasyon",
+            "Aile çekişmeleri",
+            "Polis sorgulaması sonucu",
+            "Alibi tutarsız"
+          ],
+          "likelihood": 54
+        },
+        {
+          "id": 3,
+          "name": "Anonim Bilinen İstilacı",
+          "profession": "Dış Kişi",
+          "description": "Hırsızlık güvenlik kesilmesi, komşular gariplik gördü, kaçan kişiye yardım",
+          "evidence": [
+            "Hırsızlık motivasyonu",
+            "Çiftlik konumsal bilgisi",
+            "Kurban komşu soruşturması",
+            "Giesel'i sakladığı iddiaları"
+          ],
+          "likelihood": 49
+        }
+      ],
+      "evidenceList": [
+        {
+          "id": 1,
+          "name": "Alet ve Silah Markaları",
+          "description": "Kurbanların yaraları alet tipi ve markaları gösterir.",
+          "location": "Adli Tıp Raporu",
+          "forensicImportance": "Suçlunun sahip olduğu aletleri gösterir",
+          "foundYear": 1921
+        },
+        {
+          "id": 2,
+          "name": "Çiftlik Kapısı ve Pencereleri",
+          "description": "Kişinin kapıları kapalı mı kilitlememiş mi dönem fotoğrafları.",
+          "location": "Polis Arşivi Fotoğrafları",
+          "forensicImportance": "İçeriden mi dışarıdan mı yapıldığını gösterir",
+          "foundYear": 1921
+        },
+        {
+          "id": 3,
+          "name": "Tanıklar Gözlemleri",
+          "description": "Komşuların çiftlikte görülen garip hareketleri tanık ifadeleri.",
+          "location": "Polis Sorgulaması",
+          "forensicImportance": "Zaman çizelgesi ve failler gösterir",
+          "foundYear": 1921
+        },
+        {
+          "id": 4,
+          "name": "Giesel'in Giyim ve Raporları",
+          "description": "Kaçan kız nerede saklı iken ne giymişti, ne yedi?",
+          "location": "Polis Deposu",
+          "forensicImportance": "Kim tarafından tutulduğunu gösterir",
+          "foundYear": 1921
+        }
+      ],
+      "subMissions": [
+        "Hinterkaifeck çiftliğini ve konumunu araştır",
+        "Gruber ailesinin sosyal ilişkilerini incele",
+        "6 kurbanın otopsi raporlarını oku",
+        "Giesel Gruber'i sorgula (4 gün nerede?)",
+        "Komşu tanık ifadelerini analiz et",
+        "Çiftlik kapasite ve güvenlik analizi",
+        "1921 Almanya sosyal ve Nazi öncesi koşulları araştır",
+        "Giesel'in polis sorgulamalarındaki tutarsızlıkları bul"
+      ],
+      "cliffhanger": "Giesel'i saklayan kimdi? Neden hiçbir zaman ifade vermedi? Nazi Almanya bağlantısı var mı?"
+    },
+    {
+      "chapterId": 6,
+      "chapterName": "Bölüm 6: Villisca Cinayetleri - Iowa 1912",
+      "historicalCase": "Gerçek Çözülmemiş Cinayet",
+      "realCaseLink": "https://en.wikipedia.org/wiki/Villisca_axe_murders",
+      "description": "Bir evde 8 kişi (2 yetişkin + 6 çocuk) ağır balta darbesi ile öldürüldü. Seri katil şüphesi, yanlış hüküm, gerçek suçlu bilinmiyor.",
+      "period": "1912 - Edwardian Era",
+      "difficulty": 6,
+      "estimatedPlaytime": 120,
+      "location": "Villisca, Iowa, USA",
+      "victims": [
+        "Josiah Moore",
+        "Sarah Ileen Moore",
+        "Henry Moore",
+        "Paul Moore",
+        "Doris Moore",
+        "Alice Moore",
+        "Lena Moore",
+        "Ina Long"
+      ],
+      "suspects": [
+        {
+          "id": 1,
+          "name": "Henry Moore",
+          "profession": "Ev Sahibi (Kurban)",
+          "description": "Ölmüş olsa da ev sahibinin davranış kayıtları, ailede gerilim, mali problemler",
+          "evidence": [
+            "Ev sahibi olması",
+            "Harç ayarlama",
+            "Komşu çekişmeleri",
+            "Mali sıkıntı kaydı"
+          ],
+          "likelihood": 38
+        },
+        {
+          "id": 2,
+          "name": "Henry Moore'un Sevgilisi",
+          "profession": "Gizli İlişkili",
+          "description": "Evlilik dışı ilişki, finansal baskı, kıskaç duygular, intikam motivasyonu",
+          "evidence": [
+            "Gizli ilişki kaydı",
+            "Kıskançlık notları",
+            "Mail arşiv mesajı",
+            "Tanık ifadeleri"
+          ],
+          "likelihood": 62
+        },
+        {
+          "id": 3,
+          "name": "Seri Katil Talihi Henry",
+          "profession": "Gezegin/İşçi",
+          "description": "Köylü kültürü tanır, silah (balta) terimi, başkalarının evlerine alışkın, çoklu cinayetler tipi",
+          "evidence": [
+            "Alet bilgisi",
+            "Seri katil davranış tipi",
+            "Zaman çizelgesi tutarlılığı",
+            "Diğer şehirlerde benzer suçlar"
+          ],
+          "likelihood": 75
+        }
+      ],
+      "evidenceList": [
+        {
+          "id": 1,
+          "name": "Balta ve Yaşlı Bıçak",
+          "description": "Suç sahnesinde bulunmuş balta ve bıçak alet markaları.",
+          "location": "Adli Tıp Laboratuvarı",
+          "forensicImportance": "Alet tipi seri katil bağlantısını gösterir",
+          "foundYear": 1912
+        },
+        {
+          "id": 2,
+          "name": "Tren Biletleri",
+          "description": "Suçluya ait olması muhtemel tren biletleri aynı tarihlerde.",
+          "location": "Tren İstasyonu Arşivi",
+          "forensicImportance": "Konumsal hareketi gösterir",
+          "foundYear": 1912
+        },
+        {
+          "id": 3,
+          "name": "Polis Denetleme Notları",
+          "description": "Polis tarafından seri katil şüphesiyle yanlış tutuklama kaydı.",
+          "location": "Polis Arşivi",
+          "forensicImportance": "Yanlış kişi mi tutulandı?",
+          "foundYear": 1912
+        },
+        {
+          "id": 4,
+          "name": "Özel Dedektif Raporları",
+          "description": "Özel dedektif tarafından yazılan rapor ve suçlu tasviri.",
+          "location": "Özel Arşiv",
+          "forensicImportance": "Gerçek suçlu tasviri olabilir",
+          "foundYear": 1912
+        }
+      ],
+      "subMissions": [
+        "Villisca kasabasının yapısını ve sosyal ilişkilerini araştır",
+        "8 kurbanın otopsi raporlarını oku",
+        "Evdeki yaralanma paternini analiz et",
+        "Henry Moore'un gizli ilişkisini takip et",
+        "Tren istasyonu biletlerini kontrol et",
+        "Seri katil psikoloji profilini incele",
+        "Yanlış tutuklananın kaydını araştır",
+        "Diğer şehirlerdeki benzer cinayetleri bağla"
+      ],
+      "cliffhanger": "Yanlış kişi tutuklandı. Gerçek seri katil hala özgür ve yaşıyor mu? Sonraki bölümde genetik DNA analiz ortaya çıkacak."
+    },
+    {
+      "chapterId": 7,
+      "chapterName": "Bölüm 7: Dönemin Sırrı - Tüm Bağlantılar Açılıyor",
+      "historicalCase": "Gerçek Çözülmemiş Cinayetler Sentezi",
+      "realCaseLink": "https://en.wikipedia.org/wiki/Serial_killer",
+      "description": "Tüm 6 cinayetin bağlantıları ortaya çıkıyor. Gizli ağ, işbirlikçiler, polis yolsuzluğu. Gerçeği ortaya koyan oyuncu tarihçi olacak mı?",
+      "period": "1888-1921 - Tarihî Uzantı",
+      "difficulty": 7,
+      "estimatedPlaytime": 120,
+      "location": "Uluslararası - Londra, Amerika, Almanya",
+      "victims": [
+        "Tüm Önceki Kurbanlar"
+      ],
+      "suspects": [
+        {
+          "id": 1,
+          "name": "Polis Yapılanması Yolsuzluğu",
+          "profession": "Kurumsal Suçu",
+          "description": "Her bölümde polis müdürlüğü suçluları korudu mu? Kurumsal entegre suç yönetimi?",
+          "evidence": [
+            "Dönem polis arşivleri tutarsızlıkları",
+            "Aynı isimlerin farklı soruşturmalarda tekrar gelmesi",
+            "Yanlış tutuklamalar deseni",
+            "Polis raporlarındaki düzenleme emaresi"
+          ],
+          "likelihood": 68
+        },
+        {
+          "id": 2,
+          "name": "Seri Katil Ağı",
+          "profession": "Organize Suç",
+          "description": "Tek suçlu mu? Yoksa farklı şehirlerde organize bir katil ağı mı?",
+          "evidence": [
+            "Cinayetlerin benzer paternleri",
+            "Coğrafi konumlar ve tren ağları",
+            "Benzer alet ve teknikler",
+            "Zaman çizelgeleri uyumu"
+          ],
+          "likelihood": 72
+        },
+        {
+          "id": 3,
+          "name": "Tarihî Medeniyetler Gizli Kültler",
+          "profession": "Gizli Organizasyon",
+          "description": "Dönemin gizli kültleri ve ritüelleri. Suçlar kültsel mi?",
+          "evidence": [
+            "Kurban seçimi paternleri",
+            "Yaralanma ritüelleri",
+            "Alet ve semboller",
+            "Tarihsel kültür kaydı"
+          ],
+          "likelihood": 42
+        }
+      ],
+      "evidenceList": [
+        {
+          "id": 1,
+          "name": "Tüm Dönem Polis Arşivleri",
+          "description": "1888-1921 arası tüm polis dosyaları bir araya getirilen analiz.",
+          "location": "FBI/Uluslararası Arşiv",
+          "forensicImportance": "Dönem polis tutarsızlıklarını gösterir",
+          "foundYear": 1921
+        },
+        {
+          "id": 2,
+          "name": "Sinematik Analize Bağlı Suçlar",
+          "description": "Cinayetlerin zamansal, coğrafi ve alet bağlantı analizi.",
+          "location": "Modern Adli Analiz",
+          "forensicImportance": "Seri katil ağını gösterebilir",
+          "foundYear": 1921
+        },
+        {
+          "id": 3,
+          "name": "Tanık İfadelerinin Çapraz Referansı",
+          "description": "Tüm tanık ifadeleinin karşılaştırması ve çelişkiler.",
+          "location": "Adli Tıp Sentez",
+          "forensicImportance": "Polis yolsuzluğunu gösterebilir",
+          "foundYear": 1921
+        },
+        {
+          "id": 4,
+          "name": "Genetik ve Modern Teknoloji",
+          "description": "Modern DNA ve bilgisayar analizi eski kanıtlarında.",
+          "location": "Modern Laboratuvar",
+          "forensicImportance": "Gerçek suçlu beden özdeşleme",
+          "foundYear": "Günümüz"
+        }
+      ],
+      "subMissions": [
+        "Tüm 6 cinayetin haritasını çiz ve coğrafi paternleri analiz et",
+        "Polis arşivlerindeki tutarsızlıkları bul",
+        "Tanık ifadelerindeki tekrar eden isimleri takip et",
+        "Tren ağını ve seyahat bağlantılarını incele",
+        "Tüm alet ve teknik benzerliklerini dokümanter",
+        "Polis müdürlüğü yolsuzluğu kanıtlarını topla",
+        "Tarihî bağlam ve dönem özel işleri araştır",
+        "Gerçeği yayınlayacak mısın yoksa gizli tutacak mısın?"
+      ],
+      "finalChoice": "Oyunun sonu: Bulduğun gerçeği polis mi sunsun? Basına mı sıvı mı? Gizli tutup kitap mı yaz? Seçim oyuncunun elinde.",
+      "cliffhanger": "Tarihten öğren veya tekrarlanmasına izin ver. Gerçek tarihçiler 100+ yıl sonra hala bu cinayetlerin çözüldüğünü merak ediyor. Senin çözümün gerçek olacak mı?"
+    }
+  ]
+}
